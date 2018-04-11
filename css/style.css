@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'BenchNine', sans-serif;
+    src: local('BenchNine'), local('BenchNine'), url(css/BenchNine.woff2) format('woff2');
 }
 li {
     list-style: none;
@@ -564,6 +565,7 @@ li a.active {
     background-repeat: no-repeat;
     padding: 0;
     font-family: 'BenchNine', sans-serif;
+    src: local('BenchNine'), local('BenchNine'), url(css/BenchNine.woff2) format('woff2');
     font-weight: bold;
 }
 .contact-form {
